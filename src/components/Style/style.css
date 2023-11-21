@@ -1,0 +1,43 @@
+.head{
+    
+    color: #83b1c6;
+    text-align: center;
+    padding: 20px;
+    font-family:cursive ;
+}
+
+.cardborder {
+    background-color: #dcdcdc;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f2f7f7;
+}
+
+.navbar a.nav-link:hover,
+.navbar .dropdown:hover .dropdown-toggle {
+  background-color: rgb(235, 200, 157);
+  color: #FFFFFF; 
+  text-decoration:underline;
+}
+.nav-link{
+    color: rgb(8, 8, 8);
+}
+.navbar a.nav-link, .navbar .dropdown .dropdown-toggle, .dropdown-menu a {
+    transition: background-color 0.4s ease, color 0.4s ease;
+    
+   
+}
+
+.dropdown-menu a:hover {
+    background-color: #C58940;
+    color: #FFFFFF; 
+  }

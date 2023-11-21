@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.carousel .btn {
+  background: transparent;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: 1px solid white;
+  color: white;
+}
+
+.carousel-caption {
+  margin-bottom: 200px;
+  font-weight: bold;
+
+}
+
+.carousel .btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.ai {
+  text-decoration: none;
 }
